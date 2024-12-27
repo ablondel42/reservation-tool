@@ -36,7 +36,7 @@
 </template>
 
 <script setup>
-import { defineProps, computed } from 'vue';
+import { computed } from 'vue';
 import { useRoute } from 'vue-router';
 
 const emit = defineEmits(['createClient', 'createVehicle', 'createRental']);

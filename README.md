@@ -1,8 +1,7 @@
- <!--
- cd reservation-tool  
- npm i
- npm run dev
- -->
+
+ # cd reservation-tool  
+ # npm i
+ # npm run dev
 
 `Warning: may cause blindness and night terrors...`
 
@@ -19,7 +18,8 @@ config globale est aisée.
 Il y à quelques details que j'aurais aimé avoir le temps 
 de paufiner, par exemple: 
 
--> le travail avec les dates
+-> le travail avec les dates / locales
+-> validation des forms / textfields
 -> des images pour les types de vehicules
 -> une homepage avec un aperçu plus original
 -> ne pas utiliser autant de modals :D

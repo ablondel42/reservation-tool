@@ -46,7 +46,7 @@
             <v-icon
               class="ml-4"
               variant="text"
-              size="large"
+              size="24"
             >
               mdi-filter-outline
             </v-icon>

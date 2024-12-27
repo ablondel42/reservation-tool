@@ -92,10 +92,6 @@
             required
           />
           <v-text-field
-            v-model="newClient.address"
-            label="Addresse"
-          />
-          <v-text-field
             v-model="newClient.city"
             label="Ville"
           />
@@ -141,10 +137,6 @@
             v-model="newClient.email"
             label="Email"
             required
-          />
-          <v-text-field
-            v-model="newClient.address"
-            label="Addresse"
           />
           <v-text-field
             v-model="newClient.city"
@@ -221,7 +213,6 @@ const newClient = ref({
   id: "",
   name: "",
   email: "",
-  address: "",
   city: "",
   country: "",
 });
@@ -260,7 +251,6 @@ function closeCreateClientModal() {
     id: "",
     name: "",
     email: "",
-    address: "",
     city: "",
     country: "",
   };
@@ -272,7 +262,6 @@ function closeEditClientModal() {
     id: "",
     name: "",
     email: "",
-    address: "",
     city: "",
     country: "",
   };
