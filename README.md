@@ -1,23 +1,41 @@
-The Project:
+ <!--
+ cd reservation-tool  
+ npm i
+ npm run dev
+ -->
 
-The project involves designing and developing a reservation creation tool.
-A reservation consists of a client, a vehicle, and start and end dates.
+`Warning: may cause blindness and night terrors...`
 
-Technologies:
-The frameworks to be used are VueJS and Vuetify.
-The project must be submitted via Git.
+Un projet fait en 24h avec VueJS et Vuetify.
 
-Requirements:
-A list of clients with the ability to add new ones.
-A list of vehicles with the ability to add new ones.
-A list of reservations with the ability to add new ones.
+J'ai essayé de me limiter à utiliser un nombre raisonnable 
+de components pour eviter le chaos entre les differentes 
+parties de l'application.
 
-Constraints:
-Use as many Vuetify components as possible.
-Create at least 2 custom components.
-Include computed properties.
+VueJS + Vuetify est un excellent combo, la doc est très 
+bien faite, le routing automatique est génial et la 
+config globale est aisée.
 
-Optional Features:
-Ability to filter the lists by various criteria (e.g., vehicle type, client name, reservation date range).
-Maintain logs of the performed operations.
-Host the project online. (Netlify)
+Il y à quelques details que j'aurais aimé avoir le temps 
+de paufiner, par exemple: 
+
+-> le travail avec les dates
+-> des images pour les types de vehicules
+-> une homepage avec un aperçu plus original
+-> ne pas utiliser autant de modals :D
+-> mettre un logger en place
+
+J'ai ajouté des actions pour chaque client/vehicule/reservation:
+-> Creer
+-> Modifier
+-> Supprimer
+-> Rechercher
+
+Et des filtres pour vehicules/reservations
+-> filtrer les vehicules par disponibilité
+-> filtrer les reservations entre deux dates
+
+Ayant seulement une petite semaine d'expérience avec VueJS et
+Vuetify, je pense que le résultat pourrait être pire même si
+je ne suis (pas/jamais) vraiment satisfait de mon code... :P
+
